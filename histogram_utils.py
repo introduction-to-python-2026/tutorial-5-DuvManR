@@ -1,4 +1,4 @@
-import matplotlib as plt
+import matplotlib.pyplot as plt
 
 def build_histogram(data):
     my_dict = {}
@@ -18,5 +18,3 @@ def plot_histogram(histogram):
     plt.ylabel('Frequency')
     plt.title('Histogram')
     plt.show()
-
-
