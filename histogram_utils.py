@@ -1,4 +1,4 @@
-# Q: Write an import statement that imports the function pyplot from the module matplotlib and renames it to plt.
+import matplotlib.pyploy as plt
 
 def build_histogram(data):
     my_dict = {}
