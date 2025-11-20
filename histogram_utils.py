@@ -1,4 +1,4 @@
-import matplotlib.pyploy as plt
+import matplotlib.pyploy as global plt
 
 def build_histogram(data):
     my_dict = {}
@@ -10,7 +10,6 @@ def build_histogram(data):
     return my_dict
 
 def plot_histogram(histogram):
-    import matplotlib.pyploy as plt
     x_values = list(histogram.keys())
     y_values = list(histogram.values())
 
