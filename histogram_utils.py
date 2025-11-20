@@ -1,4 +1,4 @@
-from matplotlib import pyploy as plt
+import matplotlib as plt
 
 def build_histogram(data):
     my_dict = {}
